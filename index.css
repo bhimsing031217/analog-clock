@@ -1,0 +1,51 @@
+#clock {
+    position: relative;
+    height: 60vw;
+    width: 60vw;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    background: url(wallclock.png) no-repeat;
+    background-size: 100%;
+
+
+}
+
+#hour,
+#min,
+#sec {
+    position: absolute;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
+
+#hour {
+    width: 2%;
+    height: 33%;
+    background-color: orange;
+    top: 17.3%;
+    left: 48.95%;
+    
+
+
+
+}
+
+#min {
+    width: 1%;
+    height: 34%;
+    background-color: green;
+    top: 16.4%;
+    left: 49.45%;
+   
+    
+}
+
+#sec {
+    width: 0.7%;
+    height: 35.5%;
+    background-color: yellow;
+    top: 14.8%;
+    left: 49.65%;
+    
+}
